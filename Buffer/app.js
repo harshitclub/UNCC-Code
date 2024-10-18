@@ -13,7 +13,7 @@ memoryContainer[1] = 0x34;
 memoryContainer[2] = 0xb6;
 memoryContainer[3] = 0xff;
 
-console.log(memoryContainer);
+console.log(memoryContainer.toString("utf-8"));
 
 console.log(memoryContainer[0]);
 console.log(memoryContainer[1]);
